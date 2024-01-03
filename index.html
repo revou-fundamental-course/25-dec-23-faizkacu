@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- https://github.com/revou-fundamental-course/25-dec-23-faizkacu.git -->
+    <header id="navigation-bar">
+        <h3 id="logo">Kalkulator Segitiga</h3>
+        <nav class="navigation">
+            <a href="index.html">Luas Segitiga</a>
+            <a href="kalkulator2.html">Keliling Segitiga</a>
+        </nav>
+    </header>
+    
+    <h2 style="text-align: center;">LUAS SEGITIGA</h2>
+    <center><img src="assets/luas-segitiga.png" alt="luas-segitiga" class="gambar-luas"></center>
+    <div class="rumus" style="margin-left: 40px;">
+        <p>Rumus Luas Segitiga </p>
+        <p>Alas * tinggi / 2</p>
+    </div>
+    <section class="input-luas-section">
+        <label for="label-alas">Alas</label>
+        <input type="number" id="label-alas" class="katik-input">
+        <label for="label-tinggi">Tinggi</label>
+        <input type="number" id="label-tinggi" class="katik-input">
+        <label for="label-hasil">Hasil</label>
+        <input type="text" id="label-hasil" class="katik-input" readonly>
+        <div class="buttons">
+            <button onclick="HasilLuas()">Hitung</button>
+            <button onclick="resetFormLuas()">Reset</button>
+        </div>
+    </section>
+    <br><br><br><br>
+    <div class="footer">
+        <p>Fawwaz Prayitno &#169; 2023</p>
+      </div>
+      
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

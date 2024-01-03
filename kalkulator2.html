@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- https://github.com/revou-fundamental-course/25-dec-23-faizkacu.git -->
+    <header id="navigation-bar">
+        <h3 id="logo">Kalkulator Segitiga</h3>
+        <nav class="navigation">
+            <a href="index.html">Luas Segitiga</a>
+            <a href="kalkulator2.html">Keliling Segitiga</a>
+        </nav>
+    </header>
+    
+    <h2 style="text-align: center;">KELILING SEGITIGA</h2>
+    <center><img src="assets/luas-segitiga.png" alt="luas-segitiga" class="gambar-luas"></center>
+    <div class="rumus" style="margin-left: 45px;">
+        <p>Rumus Keliling Segitiga </p>
+        <p>Sisi 1 + Sisi 2 + Sisi 3</p>
+    </div>
+    <section class="input-luas-section">
+        <label for="label-alas">Sisi 1:</label>
+        <input type="number" id="sisi1" class="katik-input">
+        <label for="label-tinggi">Sisi 2:</label>
+        <input type="number" id="sisi2" class="katik-input">
+        <label for="label-hasil">Sisi 3:</label>
+        <input type="number" id="sisi3" class="katik-input">
+        <label for="label-hasil">Hasil Keliling:</label>
+        <input type="text" id="hasilKeliling" class="katik-input" readonly>
+        <div class="buttons">
+            <button onclick="hitungKeliling()">Hitung</button>
+            <button onclick="resetFormKeliling()">Reset</button>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    
+    
+    <div class="footer">
+        <p>Fawwaz Prayitno &#169; 2023</p>
+      </div>
+      
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
